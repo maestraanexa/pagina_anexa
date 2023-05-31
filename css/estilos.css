@@ -1,0 +1,73 @@
+﻿body {  /*background:green;/* cambia el color de fondo*/
+	/*background:url(../fondo.jpg);coloca una imagen como fondo*/
+	background:gray;
+	/*background-repeat:no-repeat; /*propiedad para no repetir*/
+color:pink;/*cambia el color de la letra */
+font-size:20px;  } /*cambia el tamaño de la letra*/
+
+body{
+  background-image: url(./fondo.jpg)/*url(https://images.unsplash.com/photo-1615715932086-0552e61c565f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);*/
+  background-attachment: fixed;
+    margin: 0em;
+  font-family: 'Noto Serif', serif;
+}
+
+h2{color:blue;} /*cambia el color del elemento h1*/
+
+/*REALIZAR MENU*/
+/*
+nav a  {color: black; /*cambia el color de la etiqueta a*/
+/*text-decoration:none; /*quita la linea */
+/*background-color:pink;  /*pone el color de fondo de la liga*/
+/*padding:10px  50px;/*CAMBIA ALTO Y ANCHO*/
+/*} */
+
+	ul{ list-style:none; /*quita las viñetas*/
+		margin:0; 
+		padding:0;}
+
+	li {display:inline-block; /*coloca una al lado de la otra*/
+			}
+
+	nav a:hover { background-color:black; } /*cambia el color al estar el cursor encima*/
+
+.main {width:800px;
+	height: 800px;
+
+background:rgba(51, 255, 218 ,.5);
+margin:20px 40px;/*margen de espacio, el primero */
+/*es para inf y sup, el segundo para izq y der*/
+padding:20px ;/* agrega margen interno de la caja.*/
+border:10px solid #FF6533/*borde de la caja solido:negro*/;
+/*border:10px dotted #000/*borde de la caja punteado:negro*/;
+}   
+
+aside {width:900px;/*ancho*/
+	height:300px;/*alto*/
+background:#3384C9;
+position:relative;
+left:100px; /*hacia la izquierda*/
+top:30px;
+/*right:300px;*/ /*hacia la derecha*/
+margin:20px 40px;/*margen de espacio, el primero */
+/*es para inf y sup, el segundo para izq y der*/
+padding:10px ;/* agrega margen interno de la caja.*/
+/*border:20px solid #000/*borde de la caja solido:negro*/;
+border:10px dotted #000/*borde de la caja punteado:negro*/;
+display:inline-block;
+}
+#center-img {
+	position:absolute ;
+	top: 50%;
+	left: 50%;
+	/*display:block ;
+	margin-left:auto ;
+	margin-right:auto ;
+	/*width:300px ;*/
+	/*height:100hv ;
+align-items:center;*/
+/*border: dashed tomato ;*/
+}
+
+footer p{color:green;}
+
